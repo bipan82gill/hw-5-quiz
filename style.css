@@ -1,0 +1,11 @@
+#score{
+    display : none;
+}
+#question{
+    display: block;
+}
+#quiz{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}

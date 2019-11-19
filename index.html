@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class = "jumbotron">
+        <h1 class ="text-center">
+            <strong>Welcome to Computer Quiz</strong>
+        </h1>
+        <hr>
+        <div class = "section" class = "text-center">
+            <button type="button" class="btn btn-primary btn-lg"><span class = "quiz"></span> Start Quiz</button>
+        </div>
+    </div>
+
+<div class = "row">
+    <div class ="col-lg-6">
+        <div id = "question" class = "card">
+            <h2 class = "card-header" class = "text-center">Lets start Quiz</h2>
+            <div class ="card-body">
+                <div id = "title">Question: </div>
+                <button id = "opt1" value="option1"> A:</button><br>
+                <button id = "opt2" value = "option2"> B:</button><br>
+                <button id = "opt3"value="option3">  C:</button><br>
+                <div id = "answer">Answer:</div>
+            </div>
+        </div>
+    </div>
+
+    <div class ="col-lg-4">
+        <div id = "timer" class = "card">
+            <h1>Time Left</h1>
+            <div id = "counter" class = "text-center">
+                <h1><strong><span>0</span></strong></h1>
+            </div>
+            <div id= "score">
+                <h1>Score: </h1><div >
+            </div>
+    </div>
+    </div>
+<script src="./question.js"></script>
+</body>
+</html>
